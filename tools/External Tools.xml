@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="Set AWS Creds" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="true" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="/opt/projects/scripts/setAwsCred.sh" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="/opt/projects/scripts" />
+    </exec>
+  </tool>
+</toolSet>
